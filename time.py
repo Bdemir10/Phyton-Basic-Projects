@@ -1,0 +1,13 @@
+import datetime
+now1= datetime.datetime.now()
+time= now1.hour
+
+print("time:",time)
+if time>= 7 and time <=11:
+    print('good morning')
+elif time>=11 and time<=15:(
+    print('have a good day'))
+elif time>=17 and time<=22:
+    print('good evening')
+elif time>=22 and time<=24:
+    print('good night')
