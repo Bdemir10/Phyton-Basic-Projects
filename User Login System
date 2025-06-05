@@ -6,11 +6,11 @@ while attempts >0:
     user = (input('Enter your name '))
     password = (input('Enter your password '))
     if user == truename and password == truepassword:
-        print('Welcome to the system )
+        print('Welcome to the system')
         break
     else:
         attempts -= 1
-        print('Please try again Remaining Attempts !:{attempts}')
+        print(f'Please try again Remaining Attempts !:{attempts}')
 
     if attempts == 0:
         print('Your login rights are expired. Exiting the system...')
